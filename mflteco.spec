@@ -10,7 +10,7 @@ Source0:	http://catb.org/~esr/retro/%{name}.tar.gz
 Source1:	real.programmers.html
 Patch0:		%{name}-config.patch
 URL:		http://catb.org/~esr/retro/
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Yes, it's the Editor From Hell... the infamous TECO, bane of lusers
