@@ -5,9 +5,6 @@ Version:	36
 Release:	1
 License:	distributable
 Group:		Applications/Editors
-Group(de):	Applikationen/Editors
-Group(pl):	Aplikacje/Edytory
-Group(pt):	Aplicações/Editores
 Source0:	http://www.tuxedo.org/~esr/retro/%{name}.tar.gz
 Source1:	real.programmers.html
 Patch0:		%{name}-config.patch
