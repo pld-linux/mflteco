@@ -1,0 +1,24 @@
+diff -ur mflteco/te_exec2.c mflteco-/te_exec2.c
+--- mflteco/te_exec2.c	Fri Aug  6 00:29:34 1993
++++ mflteco-/te_exec2.c	Mon Aug 14 22:53:51 2000
+@@ -231,6 +231,7 @@
+ 				if (eisw)		/* if ending a file execute, restore the previous "old command string" */
+ 				{
+ 					fclose(eisw);				/* return the file descriptor */
++					eisw = 0;
+ 					cbuf.f->usecount = 2;		/* mark command string as two links, so it won't get returned immediately */
+ 					dly_free_blist(cbuf.f);		/* return the command string used by the file (after execution done) */
+ 					cbuf.f = oldcstring.f;
+diff -ur mflteco/te_main.c mflteco-/te_main.c
+--- mflteco/te_main.c	Fri Aug  6 00:29:34 1993
++++ mflteco-/te_main.c	Mon Aug 14 22:50:55 2000
+@@ -50,9 +50,7 @@
+ 
+ #include "te_defs.h"
+ #include <signal.h>
+-#ifdef _AIX
+ #include <sys/ioctl.h>
+-#endif
+ 
+ int cleanup();
+ 
