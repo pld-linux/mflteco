@@ -6,6 +6,7 @@ Release:	1
 License:	distributable
 Group:		Applications/Editors
 Source0:	http://www.tuxedo.org/~esr/retro/%{name}.tar.gz
+# Source0-md5:	d68a6c42dfbf5bdd9f42792d11563d5b
 Source1:	real.programmers.html
 Patch0:		%{name}-config.patch
 URL:		http://www.tuxedo.org/~esr/retro/
