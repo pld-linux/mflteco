@@ -3,14 +3,15 @@ Summary(pl):	Nies³awny TECO - Edytor z Piek³a Rodem
 Name:		mflteco
 Version:	36
 Release:	1
-Copyright:	Distributable
+License:	Distributable
 Group:		Applications/Editors
 Group(de):	Applikationen/Editors
 Group(pl):	Aplikacje/Edytory
 Group(pt):	Aplicações/Editores
-Source0:	%{name}.tar.gz
+Source0:	http://www.tuxedo.org/~esr/retro/%{name}.tar.gz
 Source1:	real.programmers.html
 Patch0:		%{name}-config.patch
+URL:		http://www.tuxedo.org/~esr/retro/
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
