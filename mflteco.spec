@@ -40,13 +40,11 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 install -m 755 teco $RPM_BUILD_ROOT%{_bindir}
 
 mv -f .tecorc sample_tecorc
-gzip -9fn 00README teco.doc teco.doc.1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz sample_tecorc pi.tec tecorc.mch real.programmers.html
-
+%doc  00README pi.tec real.programmers.html sample_tecorc teco.doc teco.doc.1 tecorc.mch 
 %attr(755,root,root) %{_bindir}/teco
