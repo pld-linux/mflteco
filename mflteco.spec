@@ -19,10 +19,10 @@ noise can be. This is Sander Van Malsen's ANSIfied version of TECO for
 Ultrix.
 
 %description -l pl
-Taaa... to edytor z piek³a, nies³awny TECO, postrach luserów i
+Taaa... to edytor z piek³a rodem, nies³awny TECO, postrach luserów i
 tajemne, niewybaczaj±ce narzêdzie Wielkich Hakerów. Zainstaluj to by
 przekonaæ siê (a) jak wygl±da³o ¿ycie przed Emacsem, oraz (b) jak
-wymowny mo¿e byæ bua³y szum. To zANSIfizowana przez Sander Van Malse'a
+wymowny mo¿e byæ bia³y szum. To zANSIfizowana przez Sander Van Malse'a
 wersja TECO dla Ultrixa.
 
 %prep
