@@ -5,11 +5,11 @@ Version:	36
 Release:	1
 License:	distributable
 Group:		Applications/Editors
-Source0:	%{name}.tar.gz
-# Source0-md5:	bafb3ed6a5e77d3ef7d50438eba35836
+Source0:	http://catb.org/~esr/retro/%{name}.tar.gz
+# Source0-md5:	78ad88889d98e0c420a4863b4d22ec7a
 Source1:	real.programmers.html
 Patch0:		%{name}-config.patch
-URL:		http://www.tuxedo.org/~esr/retro/
+URL:		http://catb.org/~esr/retro/
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -27,11 +27,11 @@ wymowny mo¿e byæ bia³y szum. To zANSIfizowana przez Sander Van Malse'a
 wersja TECO dla Ultrixa.
 
 %prep
-%setup -q -n mflteco
+%setup -q -n %{name}
 %patch0 -p1
 
 %build
-%{__make} CC=%{__cc} CDF="%{rpmcflags}" -f Makefile.sunv te
+%{__make} CC="%{__cc}" CDF="%{rpmcflags}" -f Makefile.sunv te
 mv -f te teco
 cp -f %{SOURCE1} .
 
