@@ -47,5 +47,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc  00README pi.tec real.programmers.html sample_tecorc teco.doc teco.doc.1 tecorc.mch 
+%doc  00README pi.tec real.programmers.html sample_tecorc teco.doc teco.doc.1 tecorc.mch
 %attr(755,root,root) %{_bindir}/teco
