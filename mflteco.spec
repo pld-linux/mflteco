@@ -3,7 +3,7 @@ Summary(pl):	Nies³awny TECO - Edytor z Piek³a Rodem
 Name:		mflteco
 Version:	36
 Release:	1
-License:	Distributable
+License:	distributable
 Group:		Applications/Editors
 Group(de):	Applikationen/Editors
 Group(pl):	Aplikacje/Edytory
