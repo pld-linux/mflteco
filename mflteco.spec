@@ -38,7 +38,7 @@ cp -f %{SOURCE1} .
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
-install -m 755 teco $RPM_BUILD_ROOT%{_bindir}
+install teco $RPM_BUILD_ROOT%{_bindir}
 
 mv -f .tecorc sample_tecorc
 
