@@ -1,5 +1,5 @@
 Summary:	Infamous TECO - Editor From Hell
-Summary(pl):	Nies³awny TECO - Edytor z Piek³a Rodem
+Summary(pl.UTF-8):   NiesÅ‚awny TECO - Edytor z PiekÅ‚a Rodem
 Name:		mflteco
 Version:	36
 Release:	1
@@ -19,11 +19,11 @@ out (a) what we lived with before Emacs, and (b) how expressive line
 noise can be. This is Sander Van Malsen's ANSIfied version of TECO for
 Ultrix.
 
-%description -l pl
-Taaa... to edytor z piek³a rodem, nies³awny TECO, postrach luserów i
-tajemne, niewybaczaj±ce narzêdzie Wielkich Hakerów. Zainstaluj to by
-przekonaæ siê (a) jak wygl±da³o ¿ycie przed Emacsem, oraz (b) jak
-wymowny mo¿e byæ bia³y szum. To zANSIfizowana przez Sander Van Malse'a
+%description -l pl.UTF-8
+Taaa... to edytor z piekÅ‚a rodem, niesÅ‚awny TECO, postrach luserÃ³w i
+tajemne, niewybaczajÄ…ce narzÄ™dzie Wielkich HakerÃ³w. Zainstaluj to by
+przekonaÄ‡ siÄ™ (a) jak wyglÄ…daÅ‚o Å¼ycie przed Emacsem, oraz (b) jak
+wymowny moÅ¼e byÄ‡ biaÅ‚y szum. To zANSIfizowana przez Sander Van Malse'a
 wersja TECO dla Ultrixa.
 
 %prep
