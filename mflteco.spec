@@ -1,5 +1,5 @@
 Summary:	Infamous TECO - Editor From Hell
-Summary(pl.UTF-8):   Niesławny TECO - Edytor z Piekła Rodem
+Summary(pl.UTF-8):	Niesławny TECO - Edytor z Piekła Rodem
 Name:		mflteco
 Version:	36
 Release:	1
